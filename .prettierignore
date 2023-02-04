@@ -1,0 +1,25 @@
+**/bin/**
+**/cache/**
+**/compile-cache-iseq/**
+**/.git
+**/node_modules
+
+*.enc
+*.ico
+*.key
+*.lock
+*.log
+*.pid
+*.png
+*.sqlite3
+*.txt
+
+.editorconfig
+.gitattributes
+.gitignore
+.prettierignore
+.keep
+.ruby-version
+
+# Could not find a reliable package for this one :(
+*.erb

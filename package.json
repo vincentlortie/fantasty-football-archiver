@@ -1,0 +1,22 @@
+{
+  "name": "ffb-archives",
+  "description": "An application which keeps historical data for your fantasy football leagues.",
+  "version": "v0",
+  "author": {
+    "name": "Vincent Lortie",
+    "email": "vincent.lortie@live.ca"
+  },
+  "scripts": {
+    "format": "PRETTIER_RUBY_TIMEOUT_MS=1000000 ./node_modules/.bin/prettier --write '**/*'"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^3.2.2",
+    "prettier": "^2.8.3"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
