@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "dist",
+    "outDir": "./app/assets/builds",
     "allowJs": true
   },
   "include": ["./app/javascript/*"]

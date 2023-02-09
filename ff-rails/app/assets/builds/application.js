@@ -1,3 +1,1 @@
-(() => {
-})();
-//# sourceMappingURL=assets/application.js.map
+console.log("Hello typescript");
