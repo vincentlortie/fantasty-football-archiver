@@ -1,6 +1,7 @@
 **/bin/**
 **/cache/**
 **/compile-cache-iseq/**
+**/assests/builds
 **/.git
 **/node_modules
 
@@ -9,6 +10,7 @@
 *.key
 *.lock
 *.log
+*.map
 *.pid
 *.png
 *.sqlite3
@@ -20,6 +22,7 @@
 .prettierignore
 .keep
 .ruby-version
+Procfile.dev
 
 # Could not find a reliable package for this one :(
 *.erb

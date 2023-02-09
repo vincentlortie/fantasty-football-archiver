@@ -1,0 +1,30 @@
+@import 'colors';
+
+$footer-height: 30px;
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: $primary;
+}
+
+body {
+  margin: 0;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: $footer-height;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: $secondary;
+  opacity: 0.3;
+}
