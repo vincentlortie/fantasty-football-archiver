@@ -25,7 +25,24 @@ footer {
   opacity: 0.3;
 }
 
-.top-bar {
+.topbar {
+  height: 49px;
+  padding-left: 50px;
   background-color: #0a6d91;
-  height: 50px;
+}
+
+.topbar-item {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 5px;
+}
+
+.topbar-link {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-item:hover {
+  background-color: #de8526;
 }

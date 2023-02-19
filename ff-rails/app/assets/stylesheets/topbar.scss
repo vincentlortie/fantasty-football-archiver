@@ -1,6 +1,29 @@
 @import 'colors';
 
-.top-bar {
+$topbar-height: 49px;
+$topbar-item-hor-padding: 5px;
+$topbar-item-vert-padding: 15px;
+
+.topbar {
+  height: $topbar-height;
+  padding-left: 50px;
+
   background-color: $primary;
-  height: 50px;
+}
+
+.topbar-item {
+  display: inline-flex;
+  align-items: center;
+  padding: $topbar-item-vert-padding $topbar-item-hor-padding;
+}
+
+.topbar-link {
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+}
+
+.topbar-item:hover {
+  background-color: $accent;
 }
