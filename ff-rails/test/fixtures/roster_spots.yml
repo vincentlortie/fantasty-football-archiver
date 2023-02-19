@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  qb: 1
+  rb: 1
+  wr: 1
+  te: 1
+  flex: 1
+  kicker: 1
+  dst: 1
+  bench: 1
+  reserve: 1
+
+two:
+  qb: 1
+  rb: 1
+  wr: 1
+  te: 1
+  flex: 1
+  kicker: 1
+  dst: 1
+  bench: 1
+  reserve: 1
