@@ -14,10 +14,12 @@
   </head>
 
   <body>
-    <%= render "layouts/topbar" %>
-    <main>
-      <%= yield %>
-    </main>
+    <div classs="content-wrap">
+      <%= render "layouts/topbar" %>
+      <main>
+        <%= yield %>
+      </main>
+    </div>
     <footer class=footer> </footer>
   </body>
 </html>

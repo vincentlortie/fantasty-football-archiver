@@ -14,17 +14,25 @@ body {
   margin: 0;
 }
 
-body::after {
-  content: "";
-  display: block;
-  height: $footer-height;
+main {
+  margin: 0 1rem;
+  margin-bottom: $footer-height;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: $footer-height;
   background-color: $secondary;
-  opacity: 0.3;
+}
+
+.spacer {
+  height: 1rem;
+}
+
+.card {
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  background-color: #fafafa;
 }
